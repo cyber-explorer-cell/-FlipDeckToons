@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    /* background-color: black; */
+    /* background-color: black; */
+    background: linear-gradient(rgb(4, 31, 43), black);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px;  */
+}
+
+.items{
+    height:300px;
+    width: 210px;
+    background-image: url(cardsGame.jpeg);
+    background-size: cover;
+    position: fixed;
+    z-index: 0;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.red{
+    transform: rotate(-21deg);
+}
+
+.green{
+    transform: rotate(-14deg);
+}
+
+.blue{
+    transform: rotate(-7deg);
+}
+
+.black{
+    transform: rotate();
+}
+
+
+
+.red:hover{
+    z-index: 1;
+   background-image: url(oggyMax.jpeg);
+   background-size: cover;
+}
+
+.green:hover{
+    z-index: 1;
+    background-image: url(mrBean.jpeg);
+    background-size: cover;
+}
+
+.blue:hover{
+    z-index: 1;
+    background-image: url(ben10.jpeg);
+    background-size: cover;
+}
+
+.black:hover{
+    z-index: 1;
+    background-image: url(tomJerry.jpeg);
+    background-size: cover;
+}
