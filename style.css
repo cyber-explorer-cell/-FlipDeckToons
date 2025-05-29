@@ -24,7 +24,7 @@ html,body{
 .items{
     height:300px;
     width: 210px;
-    background-image: url(cardsGame.jpeg);
+    background-image: url(./assets/cardsGame.jpeg);
     background-size: cover;
     position: fixed;
     z-index: 0;
@@ -52,24 +52,24 @@ html,body{
 
 .red:hover{
     z-index: 1;
-   background-image: url(oggyMax.jpeg);
+   background-image: url(./assets/oggyMax.jpeg);
    background-size: cover;
 }
 
 .green:hover{
     z-index: 1;
-    background-image: url(mrBean.jpeg);
+    background-image: url(./assets/mrBean.jpeg);
     background-size: cover;
 }
 
 .blue:hover{
     z-index: 1;
-    background-image: url(ben10.jpeg);
+    background-image: url(./assets/ben10.jpeg);
     background-size: cover;
 }
 
 .black:hover{
     z-index: 1;
-    background-image: url(tomJerry.jpeg);
+    background-image: url(./assets/tomJerry.jpeg);
     background-size: cover;
 }
